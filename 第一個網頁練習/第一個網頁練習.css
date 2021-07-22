@@ -1,0 +1,225 @@
+/* 頂部導覽 */
+.topbar-wrapper{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+}
+.topbar ul{
+    position: relative;
+}
+.topbar a{
+    font-size: 13px;
+    display: block;
+    padding: 0 10px;
+}
+.topbar a:hover{
+    color: #d62872;
+}
+.topbar .line{
+    content: '';
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 7px;
+    width: 1px;
+    background: #000000;
+    position: absolute;
+    top: calc((40px - 7px) / 2);
+    /* left: 0px; */
+}
+.server, .topbar li{
+    float: left;
+}
+.server, i{
+    font-size: 17px;
+    padding-right: 10px;
+}
+.user-info{
+    float: right;
+}
+#btn01:hover{
+    background-color: #d62872;
+    color:#ffffff
+}
+/* 中間LOGO跟搜尋框 */
+.searchbar-wrapper{
+    width: 100%;
+    height: 160px;
+    background-color: white;
+}
+.searchbar-left{
+    float: left;
+    width: 280px;
+    height: 120px;
+}
+.searchbar-left a{
+    width: 270px;
+    height: 120px;
+}
+.searchbar{
+    padding: 40px 0px 12px 70px;
+    float: left;
+    position: relative;
+}
+.search p{
+    padding: 0px 70px 8px 0px;
+    display: inline-block;
+    position: relative;
+}
+.search-inp{
+    border: 2px solid #515151;
+    width: 350px;
+    height: 36px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font: 13px/36px Microsoft JhengHei, sans-serif;
+    vertical-align: top;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.search-btn{
+    margin-left: -3px;
+    padding-top: -1px;
+    width: 90px;
+    border: 0px;
+    background: #515151;
+    font: bold 15px/36px Microsoft JhengHei, sans-serif;
+    color: #ffffff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-sizing: border-box;
+    height: 36px;
+}
+.search-btn:hover{
+    background-color: #353434;
+}
+.searchbar ul{
+    position: relative;
+}
+.searchbar-under span, .searchbar-under li,.searchbar-under a{
+    float: left;
+    color: #d62872;
+}
+.searchbar-under span{
+    line-height: 1;
+    font: 13px/24px Microsoft JhengHei, sans-serif;
+}
+.searchbar-under li{
+    padding: 0 10px;
+}
+.searchbar-under a{
+    line-height: 1;
+    font: 13px/24px Microsoft JhengHei, sans-serif;;
+}
+.searchbar-under .line2{
+    content: '';
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 14px;
+    width: 1px;
+    background: #d62872;
+    position: absolute;
+    top: 5px;
+    /* left: 0px; */
+}
+.searchbar-right{
+    float: left;
+    margin: 0px;
+    padding: 30px 20px 10px 0px;
+}
+.layout{
+    float: left;
+    width: 100%;
+    height: 36px;
+}
+.layoutleft{
+    float: left;
+    height: 35px;
+}
+.layoutright{
+    float: right;
+}
+.layoutright li{
+    float: left;
+    padding-top: 6px;
+    padding-left: 3px;
+}
+/* banner輪播圖 */
+.banner-wrapper{
+    width: 100%;
+    height: 370px;
+    background-color: rgb(221, 128, 94);
+    /* position: relative; */
+}
+.banner-left{
+    width: 200px;
+    height: 481px;
+    float: left;
+    position: relative;
+}
+.leftmenu{
+    width: 200px;
+    height: 481px;
+    margin: 0px;
+    padding-top: 19px;
+    background-color: #515151;
+    float: left;
+}
+.leftmenu li{
+    margin: 0px;
+    padding: 0px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 33px;
+    overflow: hidden;
+    
+}
+.leftmenu li:hover {
+    background-color: #d62872;
+}
+/* .leftmenu li:hover  .textbox{
+    border: 3px solid #d62872;
+    box-sizing: border-box;
+    height: auto;
+} */
+.leftmenu a{
+    font: 14px/33px Microsoft JhengHei, sans-serif;
+    color: #ffffff;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 33px;
+}
+.textbox{
+    width: 1020px;
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    /* float: left; */
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    text-align: left;
+    z-index: 99;
+    height: auto;
+    border: 3px solid #d62872;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none;
+}
+.addtest{
+    display: block;
+}
+/* 輪播圖 */
+.banner-mid{
+    float: left;
+    width: 740px;
+    height: 400px;
+    /* margin: 50px auto; */
+    background-color: brown;
+    padding: 10px 0;
+    position: relative;
+    /* overflow: hidden; */
+    /* left: 300px; */
+}

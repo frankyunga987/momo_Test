@@ -1,0 +1,19 @@
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+body{
+    font: 13px/40px Microsoft JhengHei, sans-serif;
+    color: black;
+    min-width: 1226px;
+}
+.w{
+    width: 1220px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

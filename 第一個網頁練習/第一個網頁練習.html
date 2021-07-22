@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>momo購物網</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./iconfont(font awesome)/css/all.css">
+    <link rel="stylesheet" href="./第一個網頁練習.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <script type="text/javascript" src=".//js/class操作.js"></script>
+    
+    <script type="text/javascript">
+        window.onload=function(){
+            var menu =document.getElementById("menu");
+            var menuLi =document.getElementsByClassName("menuLi");
+            for(var i=0;i<menuLi.length;i++){
+                menuLi[i].onmouseover=function(){
+                    toggleClass(menu,"addtest");
+                }
+            }    
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="topbar-wrapper">
+        <div class="topbar w clearfix">
+            <ul class="serve">
+                <li><a href="javascript:;">
+                    <i class="fas fa-home"></i>回首頁</a>
+                </li>
+                <li><a href="javascript:;">momo摩天商城</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">momo富立保險</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">APP下載</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">點點賺</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">直配大陸</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">書店</a></li>
+            </ul>
+            <ul class="user-info">
+                <li><a href="javascript:;">登入</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">註冊</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">會員中心</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">查訂單</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">追蹤清單</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">折價眷</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;">購物車</a></li>
+                <li class="line"></li>
+                <li><a href="javascript:;"><button id="btn01">結帳</button></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="searchbar-wrapper">
+        <div class="searchbar-all w clearfix">
+            <div class="searchbar-left">
+                <a href="javascript:;"><img src="./img/momo.png"></a>
+            </div>
+            <div class="searchbar">
+                <form class="search" action="#">
+                    <p class="search-line">
+                    <input class="search-inp" type="text">
+                    <button class="search-btn" id="btn02">搜尋</button>
+                    </p>
+                </form>
+                <ul class="searchbar-under">
+                    <span>熱門 ></span>
+                    <li><a href="javascript:;">天天簽到</a></li>
+                    <li class="line2"></li>
+                    <li><a href="javascript:;">粽子</a></li>
+                    <li class="line2"></li>
+                    <li><a href="javascript:;">switch</a></li>
+                    <li class="line2"></li>
+                    <li><a href="javascript:;">iPhone</a></li>
+                    <li class="line2"></li>
+                    <li><a href="javascript:;">電風扇</a></li>
+                    <li class="line2"></li>
+                    <li><a href="javascript:;">配送公告</a></li>
+                </ul>
+            </div>
+            <div class="searchbar-right">
+                <a href="javascript:;"><img src="./img/6.png"></a>
+            </div>
+            <div class="layout">
+                <ul class="layoutleft"><img src="./img/7.png"></ul>
+                <ul class="layoutright">
+                    <li><a href="https://www.google.com/?hl=zh_tw"><img src="./img/a.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/b.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/c.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/d.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/e.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/f.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/g.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/h.png"></a></li>
+                    <li><a href="javascript:;"><img src="./img/i.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="banner-wrapper">
+        <div class="banner-all w clearfix">
+            <div class="banner-left">
+                <ul class="leftmenu">
+                    <li class="menuLi"><a href="javascript:;">家電．電玩．視聽．廚三機</a></li>
+                    <li class="menuLi"><a href="javascript:;">手機．電玩．視聽．廚三機</a></li>
+                    <li class="menuLi"><a href="javascript:;">電腦．電玩．視聽．廚三機</a></li>
+                    <li class="menuLi"><a href="javascript:;">保健．電玩．視聽．廚三機</a></li>
+                    <li class="menuLi"><a href="javascript:;">食品．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">彩妝．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">服裝．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">珠寶．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">日用品．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">母嬰．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">家俱．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">運動．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">圖書．電玩．視聽．廚三機</a></li>
+                    <li><a href="javascript:;">旅遊．電玩．視聽．廚三機</a></li>
+                </ul>
+                <div id="menu" class="textbox">
+                    123</br>123</br>123</br>123</br>123
+                </div>
+            </div>
+            <div id="outer" class=banner-mid>
+                <ul id=imglist>
+                    <li><img src="img\1.jpg"/></li>
+                    <li><img src="img\2.jpg"/></li>
+                    <li><img src="img\3.jpg"/></li>
+                    <li><img src="img\1.jpg"/></li>
+                </ul>
+    
+                <div id="navDiv">
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                </div>
+            </div>
+            <div class="banner-right"></div>
+        </div>
+    </div>
+</body>
+</html>
